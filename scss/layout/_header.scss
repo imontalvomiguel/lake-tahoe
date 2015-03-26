@@ -4,7 +4,7 @@
   height: 850px;
   background: linear-gradient($primary-color, transparent 90%),
               linear-gradient(0deg, $white, transparent),
-              #ffa949 url('../img/mountains.jpg') no-repeat center;
+              #ffa949 url('#{$path-images}/mountains.jpg') no-repeat center;
   background-size: cover;
   color: $white;
 }
