@@ -7,4 +7,9 @@
               #ffa949 url('#{$path-images}/mountains.jpg') no-repeat center;
   background-size: cover;
   color: $white;
+
+  @include mediaquery(small) {
+    max-height: 380px;
+    padding: 50px 25px 0;
+  }
 }

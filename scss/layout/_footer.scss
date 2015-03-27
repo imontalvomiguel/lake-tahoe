@@ -3,4 +3,8 @@
   padding-top: 60px;
   padding-bottom: 60px;
   border-bottom: 10px solid $primary-color;
+
+  @include mediaquery(small) {
+    padding: 20px 0;
+  }
 }
